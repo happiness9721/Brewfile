@@ -1,9 +1,10 @@
 cask_args appdir: "/Applications"
 tap "homebrew/cask"
 tap "kylef/formulae"
+tap "vapor/homebrew-tap"
 
 # basic environment
-brew "git"
+brew "git", args: ["without-completions"]
 brew "git-flow"
 brew "bash"
 brew "zsh"
@@ -20,6 +21,7 @@ brew "rbenv"
 # swift
 brew "swiftenv"
 brew "swiftformat"
+brew "vapor"
 
 # nodejs
 brew "nodenv"
@@ -31,6 +33,8 @@ cask "google-chrome"
 cask "scroll-reverser"
 cask "appcleaner"
 cask "visual-studio-code"
+cask "stride"
+cask "zeplin"
 
 # mas
 mas "Xcode", id: 497799835

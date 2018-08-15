@@ -13,6 +13,7 @@ brew "tig"
 brew "tmux"
 brew "the_silver_searcher"
 brew "ansible"
+brew "tree"
 brew "mas"
 
 # ruby
